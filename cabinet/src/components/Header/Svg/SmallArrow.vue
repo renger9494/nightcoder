@@ -1,0 +1,18 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" width="7" height="5" viewbox="0 0 7 5" fill="none">
+    <path d="M3.5 5L0 -4.76837e-07H7L3.5 5Z" :fill="color" />
+  </svg>
+</template>
+
+<script>
+export default {
+  props: {
+    color: {
+      type: String,
+      default: () => '#949CAD'
+    }
+  }
+};
+</script>
+
+<style></style>

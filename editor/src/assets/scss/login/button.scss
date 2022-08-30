@@ -1,0 +1,155 @@
+.btn-icon {
+  width: 227px;
+  // height: 36px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: $shape_border_radius;
+  position: relative;
+  padding-left: 58px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  cursor: pointer;
+  transition: background-color .3s ease, transform .3s ease, color .3s ease, box-shadow .3s ease;
+}
+
+.btn-icon:disabled {
+  color: #000000;
+  background: gray;
+  cursor: default;
+}
+
+.btn-icon:hover {
+  transform: translateY(-3px);
+
+  &:after {
+    width: 20px;
+  }
+}
+
+.btn-icon:before {
+  content: "d";
+  text-indent: 1000px;
+  display: inline-block;
+  width: auto;
+  max-width: 25px;
+  height: 15px;
+  position: absolute;
+  left: 22px;
+}
+
+.btn-icon:after {
+  content: 'd';
+  text-indent: 1000px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: -1px;
+  border-radius: 0px 4px 4px 0px;
+  width: 6px;
+  height: calc(100% + 2px);
+  transition: width .3s cubic-bezier(0, 1, .75, 1.51);
+}
+
+.btn-icon.animate-slide:after {
+  transition: width 1s ease;
+}
+
+.btn-icon.animate-slide {
+  &:after {
+    border-radius: $shape_border_radius;
+    width: 225px;
+  }
+}
+
+.btn-icon.animate-slide img {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin-top: -2px;
+}
+
+button#google {
+  background: #FF6153;
+  border: 1px solid #F03627;
+  box-shadow: 0px 8px 14px rgba(242, 107, 96, 0.3);
+}
+
+button#google:hover {
+  box-shadow: 0px 8px 14px rgba(238, 70, 56, 0.5);
+}
+
+button#google:before {
+  background: url(/img/login/icons/icon-google.svg) no-repeat;
+  background-size: contain;
+}
+
+button#google:after {
+  background: #F03627;
+}
+
+button#twitter {
+  background: #43AAF6;
+  border: 1px solid #209BF6;
+  box-shadow: 0px 8px 14px rgba(89, 173, 235, 0.3);
+}
+
+button#twitter:hover {
+  box-shadow: 0px 8px 14px rgba(31, 126, 197, 0.5);
+}
+
+button#twitter:before {
+  background: url(/img/login/icons/icon-twitter.svg) no-repeat;
+  background-size: contain;
+}
+
+button#twitter:after {
+  background: #209BF6;
+}
+
+button#facebook {
+  background: #3165CA;
+  border: 1px solid #1C57CC;
+  box-shadow: 0px 8px 14px rgba(64, 100, 171, 0.3);
+}
+
+button#facebook:hover {
+  box-shadow: 0px 8px 14px rgba(48, 86, 160, 0.5);
+}
+
+button#facebook:before {
+  background: url(/img/login/icons/icon-facebook.svg) no-repeat;
+  background-size: contain;
+}
+
+button#facebook:after {
+  background: #1C57CC;
+}
+
+.btn-black {
+  background: #000000;
+  border: 1px solid #333333;
+  box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding-left: 0;
+  color: #fff;
+  cursor: pointer;
+
+  span.z-index {
+    position: relative;
+    z-index: 99;
+    margin-right: 10px;
+  }
+}
+
+.btn-black:hover {
+  box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.5);
+}
+
+.btn-black:after {
+  background: #333333;
+}

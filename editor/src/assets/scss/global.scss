@@ -1,0 +1,29 @@
+.v-tooltip {
+  position: fixed;
+  z-index: 2000000;
+  background: $black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: $shape_border_radius;
+  padding: 2px 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0s linear, visibility 0s linear;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: $white;
+  max-width: 180px;
+
+  span {
+    &:nth-child(2) {
+      padding: 0 0 0 8px;
+      color: $gray200;
+    }
+  }
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.8s;
+  }
+}

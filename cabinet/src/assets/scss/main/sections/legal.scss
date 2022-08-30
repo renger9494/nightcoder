@@ -1,0 +1,47 @@
+.legal {
+  &__head {
+    background: #0E0E11;
+    padding: 127px 0 78px;
+    margin: 0 0 50px;
+  }
+
+  &__title {
+    color: $white;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 85px;
+  }
+}
+
+.callback-block {
+  text-align: center;
+  padding: 100px 0 80px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    margin: 0 0 7px;
+  }
+
+  &__desc {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba($black, 0.8);
+    margin: 0 0 34px;
+  }
+
+  &__link {
+    color: #173BEF;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-decoration: none;
+    transition: .3s;
+
+    &:hover {
+      color: $blue200;
+    }
+  }
+}

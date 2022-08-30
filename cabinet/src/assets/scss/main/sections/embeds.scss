@@ -1,0 +1,223 @@
+.embeds {
+  padding: 136px 0 0;
+  background: #0E0E11;
+
+  &-pin {
+    z-index: 20;
+  }
+
+  &__wrap {
+    display: flex;
+
+    &:first-child {
+      margin: 0 auto 148px;
+    }
+  }
+
+  &__left {
+    position: relative;
+    &--first {
+      width: calc(45% - 50px);
+      margin: 0 50px 0 0;
+      overflow: hidden;
+    }
+    img {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+  }
+
+  &__right {
+    position: relative;
+    &--first {
+      display: flex;
+      flex-wrap: wrap;
+      width: 51%;
+      position: relative;
+      transform: translate(0, -50px);
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: -30px;
+        width: 100%;
+        height: 250px;
+        background: radial-gradient(136.32% 136.32% at 49.97% -28.47%, rgba(14, 14, 17, 0) 44.41%, rgba(14, 14, 17, 0.46) 63.3%, #0E0E11 85.57%);
+      }
+    }
+    &--second {
+      width: 38%;
+      margin: 0 0 0 15px;
+      transform: translate(-28px, -17px);
+      overflow: hidden;
+    }
+    picture {
+      opacity: 0;
+      transform: translateY(50%);
+      &:first-child{
+        margin: auto 12px 32px 0;
+        width: calc(45% - 12px);
+      }
+      &:nth-child(2) {
+        width: 55%;
+        margin: auto 0 14px 0;
+      }
+      &:nth-child(3) {
+        width: calc(45% - 12px);
+        margin: -20px 12px auto 0;
+      }
+      &:nth-child(4) {
+        width: 55%;
+        margin: 0 auto auto 0;
+      }
+    }
+  }
+
+  &__bg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    transform: translate(-60%,0);
+    transition: .1s;
+    z-index: 10;
+    background: linear-gradient(148deg, rgba(#0E0E11, 0) 0, rgba(#0E0E11, 0) 20%, #0E0E11 40%);
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    color: $white;
+    margin: 0 0 7px;
+
+    &--first {
+      max-width: 265px;
+      background: linear-gradient(90deg, #9FF6D3 0%, #6BBDF4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    span {
+      font-weight: inherit;
+      background: linear-gradient(90deg, #E64AFA  0%, #8C38FF  40.1%, #3CA1FF  100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0 0 6px;
+    max-width: 382px;
+    &--first {
+      max-width: 445px;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+  }
+
+  &__img {
+    max-width: 100%;
+    &--1 {
+      transform: translate(-84px,35px);
+    }
+    &--2 {
+      position: absolute;
+      z-index: 2;
+      left: 38px;
+      top: -58px;
+    }
+    &--3 {
+      position: absolute;
+      z-index: 2;
+      right: 36px;
+      bottom: -63px;
+    }
+  }
+
+  @include bp($md) {
+    &__right {
+      &--first {
+        margin: 0 0 0 auto;
+      }
+      &--second {
+        width: 81%;
+      }
+    }
+    &__title {
+      font-size: 48px;
+      line-height: 72px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__img {
+      &--2 {
+        top: -28px;
+      }
+      &--2,&--3 {
+        max-width: 30% !important;
+      }
+    }
+    &__bg {
+      width: 400%;
+      transform: translate(-50%, 0);
+    }
+  }
+
+  @include bp($sm) {
+    padding: 49px 0 0;
+
+    &__wrap {
+      flex-direction: column;
+      &:first-child {
+        margin: 0 0 56px;
+      }
+    }
+
+    &__left, &__right {
+      width: 100%;
+    }
+
+    &__left {
+      &--first {
+        margin: 0 0 36px;
+      }
+      &--second {
+        order: 2;
+      }
+    }
+
+    &__right {
+      &--first {
+        max-width: 267px;
+        margin: 0 auto;
+        transform: unset;
+      }
+      &--second {
+        transform: unset;
+        order: 1;
+        margin: 0 0 36px;
+      }
+    }
+
+    &__img {
+      &--1 {
+        transform: unset;
+      }
+      &--3 {
+        bottom: -10px;
+      }
+    }
+  }
+}

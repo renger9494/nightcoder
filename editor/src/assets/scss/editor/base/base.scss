@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+
+	margin: 0;
+	padding: 0;
+	// font-weight: 300;
+}
+html{
+	height: 100%;
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+}
+body{
+	font-size: inherit;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	overflow: hidden;
+}
+strong, b{
+	font-weight: 700;
+}
+button,
+input{
+	border: none;
+	background: none;
+}
+button:focus,
+input:focus,
+textarea:focus{
+	outline: none;
+}
+
+
+.page_wrapper{
+	height: 100%;
+}
+.container{
+	position: relative;
+	padding: 0 15px;
+	margin: auto;
+}
+
+.flex-left-center {
+	display: flex;
+	align-items: center;
+}
+
+.selection-area {
+  background: rgba(46, 115, 252, 0.11);
+  border-radius: 0.1em;
+  border: 2px solid rgba(98, 155, 255, 0.81);
+}
+
+label input[type='file'] {
+	display: none;
+}

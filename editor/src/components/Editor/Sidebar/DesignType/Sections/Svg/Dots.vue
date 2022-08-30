@@ -1,0 +1,21 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="2" viewBox="0 0 10 2" fill="none">
+    <path
+      d="M8 1C8 0.447715 8.44771 -4.76837e-07 9 -4.76837e-07C9.55229 -4.76837e-07 10 0.447715 10 1C10 1.55228 9.55229 2 9 2C8.44771 2 8 1.55228 8 1Z"
+      fill="black"
+    />
+    <path
+      d="M4 1C4 0.447715 4.44772 0 5 0C5.55229 0 6 0.447715 6 1C6 1.55228 5.55229 2 5 2C4.44772 2 4 1.55228 4 1Z"
+      fill="black"
+    />
+    <path
+      d="M0 1C-2.41411e-08 0.447715 0.447715 0 1 0C1.55228 0 2 0.447715 2 1C2 1.55228 1.55228 2 1 2C0.447715 2 2.41411e-08 1.55228 0 1Z"
+      fill="black"
+    />
+  </svg>
+</template>
+
+<script lang="ts">
+import Vue from 'vue';
+export default Vue.extend({});
+</script>

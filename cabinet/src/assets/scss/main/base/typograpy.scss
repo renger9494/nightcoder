@@ -1,0 +1,57 @@
+.content-page {
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+    &:not(:last-of-type) {
+      margin: 0 0 24px;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 27px;
+    &:not(:last-of-type) {
+      margin: 0 0 50px;
+    }
+    &.ul {
+      margin: 0;
+    }
+
+    a {
+      color: #173BEF;
+      text-decoration: none;
+      font-weight: inherit;
+      transition: .3s;
+
+      &:hover {
+        color: $blue200;
+      }
+    }
+
+    b {
+      font-weight: bold;
+    }
+  }
+
+  ul {
+    padding: 0 0 0 28px;
+    &.gutter {
+      margin: 0 0 50px;
+    }
+
+    li {
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: -15px;
+        top: 10px;
+        background: $black;
+        border-radius: 50%;
+        @include size(4px);
+      }
+    }
+  }
+}

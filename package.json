@@ -1,0 +1,20 @@
+{
+  "name": "airtap",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "npm run serve:cabinet & npm run serve:editor",
+    "bootstrap": "npm run bootstrap:cabinet & npm run bootstrap:editor",
+    "bootstrap:cabinet": "cd cabinet && npm install",
+    "bootstrap:editor": "cd editor && npm install",
+    "serve:cabinet": "cd cabinet && npm run dev",
+    "serve:editor": "cd editor && npm run serve"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "none",
+    "printWidth": 120,
+    "vueIndentScriptAndStyle": false
+  },
+  "dependencies": {}
+}

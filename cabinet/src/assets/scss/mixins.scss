@@ -1,0 +1,129 @@
+@mixin clearfix {
+	&:after {
+		content: " "; /* Older browser do not support empty content */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		clear: both;
+	}
+}
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}
+	&:-moz-placeholder {
+		@content;
+	}
+	&::-moz-placeholder {
+		@content;
+	}
+	&:-ms-input-placeholder {
+		@content;
+	}
+}
+@mixin clear_list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+@mixin no_webkit_flickering {
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+}
+@mixin GPU_acceleration {
+	transform: translateZ(0);
+}
+@mixin font_loader($font_family, $font_weight, $font_style) {
+	font-weight: #{$font_weight + "00"};
+	$font_map: (
+		//$playfair: 'playfairdisplay',
+		//$montserrat: 'montserrat'
+	);
+
+	.wf-#{map-get($font_map, $playfair)}-#{$font_style + $font_weight}-active & {
+		font-family: #{$font_family}, Helvetica, Arial, sans-serif;
+	}
+}
+@mixin clear_link {
+	&,
+	&:hover,
+	&:active,
+	&:focus,
+	&:visited {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+@mixin xl-down {
+	@media only screen and (max-width: 1480px) {
+		@content;
+	}
+}
+
+@mixin lg-down {
+	@media only screen and (max-width: 1000px) {
+		@content;
+	}
+}
+
+// It is not used, at least right now
+@mixin md-down {
+	@media only screen and (max-width: 992px) {
+		@content;
+	}
+}
+
+@mixin sm-down {
+	@media only screen and (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin xs-down {
+	@media only screen and (max-width: 576px) {
+		@content;
+	}
+}
+
+
+@mixin bp($width,$direction:max) {
+	@if $direction == min {
+		@media screen and (min-width: $width) {
+			@content
+		}
+	}
+	@else {
+		@media screen and (max-width: $width) {
+			@content
+		}
+	}
+}
+
+@mixin retina() {
+	@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (   min--moz-device-pixel-ratio: 2),
+	only screen and (     -o-min-device-pixel-ratio: 2/1),
+	only screen and (        min-device-pixel-ratio: 2),
+	only screen and (                min-resolution: 192dpi),
+	only screen and (                min-resolution: 2dppx) {
+		@content
+	}
+}
+
+@mixin retinaSize($size) {
+	@media
+	only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: $size),
+	only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: $size),
+	only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: $size),
+	only screen and (        min-device-pixel-ratio: 2)      and (max-width: $size),
+	only screen and (                min-resolution: 192dpi) and (max-width: $size),
+	only screen and (                min-resolution: 2dppx)  and (max-width: $size) {
+		@content
+	}
+}
+
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}

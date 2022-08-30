@@ -1,0 +1,257 @@
+.discover {
+  padding: 91px 0 141px;
+  background: #0E0E11;
+
+  &__title {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 73px;
+    color: $white;
+    max-width: 660px;
+    margin: 0 0 38px;
+
+    span {
+      font-weight: inherit;
+      background: linear-gradient(90deg, #95D3F3 0%, #D8A8EB 41.15%, #6780FA 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 34px;
+    border-radius: 10px;
+    color: $black;
+    text-decoration: none;
+    margin: 0 0 64px;
+
+    svg {
+      @include size(12px, 11px);
+    }
+
+    &--color {
+      position: relative;
+      &:after,&:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+        @include size(100%);
+        transition: .3s;
+      }
+
+      &:after {
+        background: linear-gradient(90deg, #E64AFA 0%, #8C38FF 40.1%, #3CA1FF 100%);
+        opacity: 0;
+      }
+
+      &:before {
+        background: $white;
+      }
+
+      &:hover {
+        color: $white;
+
+        &:after {
+          opacity: 1;
+        }
+        &:before {
+          opacity: 0;
+        }
+
+        svg {
+          path {
+            fill: $white;
+          }
+        }
+      }
+    }
+
+    &--empty {
+      padding: 0;
+      background: transparent;
+      color: $white;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 0.04em;
+      margin: 0 10px 0 0;
+    }
+
+    span, svg{
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  &__tag-wrap {
+    max-width: 600px;
+    margin: 0 0 55px;
+  }
+
+  &__tag {
+    display: inline-flex;
+    padding: 8px 10px;
+    background: #2B2B2B;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    &:not(:last-child) {
+      margin: 0 8px 8px 0;
+    }
+  }
+
+  &__imgs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -61px;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+      content: '';
+      position: absolute;
+      height: 519px;
+      width: 100%;
+      left: 0;
+      top: 0;
+      transform: rotate(180deg);
+      z-index: 2;
+      background: radial-gradient(136.32% 136.32% at 49.97% -28.47%, rgba(14, 14, 17, 0) 40.16%, rgba(14, 14, 17, 0.46) 58.25%, #0E0E11 85.89%);
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 519px;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      background: radial-gradient(136.32% 136.32% at 49.97% -28.47%, rgba(14, 14, 17, 0) 40.16%, rgba(14, 14, 17, 0.46) 58.25%, #0E0E11 85.89%);
+    }
+
+    &-col {
+      flex: 0 0 calc(25% - 9px);
+      width: calc(25% - 9px);
+      img {
+        max-width: 100%;
+      }
+      &:not(:last-child) {
+        margin: 0 12px 0 0;
+      }
+    }
+  }
+
+  &__bottom {
+    &-title {
+      font-weight: bold;
+      font-size: 56px;
+      line-height: 84px;
+      text-align: center;
+      color: $white;
+      margin: 0 0 37px;
+      span {
+        font-weight: inherit;
+        background: linear-gradient(90deg, #95D3F3 0%, #D8A8EB 41.15%, #6780FA 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    a {
+      margin: 0;
+      &:first-child {
+        margin: 0 37px 0 0;
+      }
+    }
+  }
+
+  @include bp($md) {
+    &__title {
+      font-size: 48px;
+      line-height: 72px;
+      margin: 0 0 36px;
+    }
+    &__link {
+      margin: 0 0 45px;
+    }
+    &__bottom {
+      &-title {
+        max-width: 776px;
+        font-size: 48px;
+        line-height: 72px;
+      }
+    }
+    &__tag-wrap {
+      margin: 0 0 48px;
+    }
+    &__imgs {
+      margin: 0 -41px;
+    }
+  }
+
+  @include bp($sm) {
+    padding: 49px 0 58px;
+
+    &__title {
+      font-size: 30px;
+      line-height: 45px;
+      margin: 0 0 28px;
+    }
+
+    &__link {
+      padding: 15px 25px;
+      margin: 0 0 39px;
+      span {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+    &__bottom {
+      &-title {
+        font-size: 30px;
+        line-height: 45px;
+        margin: 0 0 30px;
+      }
+    }
+
+    &__links {
+      flex-direction: column;
+
+      a:first-child {
+        margin: 0 0 15px;
+      }
+    }
+
+    &__imgs {
+      margin: 0 -15px;
+
+      &:after {
+        bottom: -1px;
+      }
+
+      &-col {
+        flex: 0 0 calc(25% - 4px);
+        &:not(:last-child) {
+          margin: 0 5px 0 0;
+        }
+      }
+    }
+  }
+}

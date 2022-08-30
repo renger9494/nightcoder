@@ -1,0 +1,18 @@
+.title {
+  font-size: 60px;
+  line-height: 1;
+  position: relative;
+  left: -0.06em;
+  font-weight: 400;
+}
+
+@media ($max_laptop) {
+  .title {
+    font-size: 45px;
+  }
+}
+@media ($max_tablets--landscape) {
+  .title {
+    font-size: 36px;
+  }
+}

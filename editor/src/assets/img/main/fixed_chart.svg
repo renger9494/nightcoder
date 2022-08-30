@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2536px" height="1106px" viewBox="0 0 2536 1106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>fixed_chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#374FE0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#919193" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-1.11022302e-14%" x2="50%" y2="63.4152041%" id="linearGradient-3">
+            <stop stop-color="#BDBBDD" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#1941E3" stop-opacity="0.197548687" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fixed_chart">
+            <g id="Lines" transform="translate(136.959339, 260.726811)" stroke-linecap="square">
+                <g id="Group-3">
+                    <path d="M2097.13151,108.929537 L2097.13151,832.428821" id="15" stroke="url(#linearGradient-1)"></path>
+                    <path d="M1748.40216,216.756914 L1748.40216,822.91802" id="14" stroke="url(#linearGradient-1)"></path>
+                    <path d="M1399.67281,432.666904 L1399.67281,702.44788" id="13" stroke="url(#linearGradient-1)"></path>
+                    <path d="M1050.94346,482.465693 L1050.94346,704.618147" id="12" stroke="url(#linearGradient-1)"></path>
+                    <path d="M702.214104,354.597421 L702.214104,703.618147" id="11" stroke="url(#linearGradient-1)"></path>
+                    <path d="M353.484752,236.184879 L353.484752,683.426279" id="10" stroke="url(#linearGradient-1)"></path>
+                    <g id="Group-4" opacity="0.427413713" transform="translate(174.364676, 0.000000)">
+                        <path d="M2097.13151,1.48981886 L2097.13151,845.109888" id="8" stroke="url(#linearGradient-2)"></path>
+                        <path d="M1748.40216,162.862378 L1748.40216,769.023484" id="7" stroke="url(#linearGradient-2)"></path>
+                        <path d="M1399.67281,315.428011 L1399.67281,686.596546" id="6" stroke="url(#linearGradient-2)"></path>
+                        <path d="M1050.94346,489.782595 L1050.94346,702.44788" id="5" stroke="url(#linearGradient-2)"></path>
+                        <path d="M702.214104,430.741423 L702.214104,703.618147" id="4" stroke="url(#linearGradient-2)"></path>
+                        <path d="M353.484752,276.386437 L353.484752,698.277613" id="3" stroke="url(#linearGradient-2)"></path>
+                        <path d="M4.75540025,237.306403 L4.75540025,649.723611" id="2" stroke="#0033FF"></path>
+                    </g>
+                    <path d="M4.75540025,288.233843 L4.75540025,605.510142" id="1" stroke="url(#linearGradient-1)"></path>
+                </g>
+            </g>
+            <path d="M249.502418,619.302768 C460.680633,525.806303 617.963391,550.461033 846.091311,374.803131 C1048.08749,219.266599 1204.24326,174.423713 1451.85797,254.721008 C1537.88257,282.617342 1637.87288,326.214187 1760.63669,386.739109 C2236.76598,621.480024 2531.68684,333.512982 2531.68684,333.512982 L2533.75752,0.764930114 L0.637865311,0.764930114 L0.637865311,967.696315 C0.637865311,967.696315 38.3242037,712.799234 249.502418,619.302768 Z" id="shadow" fill="url(#linearGradient-3)" transform="translate(1267.197694, 484.230623) rotate(-180.000000) translate(-1267.197694, -484.230623) "></path>
+            <path d="M4.5,633.5 C70,572 367,379 773,582 C849.586853,620.293427 960,677 1080,714 C1185.25057,746.452259 1401,832 1689,594 C1775.27824,522.70062 1880.02181,479.046735 1980,448 C2079.97819,416.953265 2186.12861,396.159236 2286,349 C2397.53191,296.334667 2489,205 2533.5,12.5" id="chart_line" stroke="#0065FF" stroke-width="4" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

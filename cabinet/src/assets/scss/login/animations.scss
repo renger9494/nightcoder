@@ -1,0 +1,8 @@
+.icon-slide-leave-active, .icon-slide-enter-active {
+    transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.icon-slide-enter, .icon-slide-leave-to
+    /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateY(15px);
+    opacity: 0;
+}

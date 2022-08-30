@@ -1,0 +1,89 @@
+/*
+ * Colors for Ui elements */
+
+
+
+/* Input Colors */
+$color_input_label: $gray700;
+$color_input_placeholder: $gray400;
+$color_input_text: $black;
+
+// Input with transparent border
+$color_input_border: $gray100;
+$color_input_hover: $gray200;
+$color_input_focus: $blue200;
+
+// Input with overlay
+$color_input_overlay_border: $gray100;
+$color_input_overlay_border_hover: $gray200;
+$color_input_overlay_border_focus: $blue200;
+
+
+/* Button Colors */
+
+// Regular Button
+$color_btn_bg: transparent;
+$color_btn_hover_bg: $gray100;
+$color_btn_focus_bg: $gray200;
+
+// Overlay Button
+$color_btn_overlay: $gray100;
+$color_btn_overlay_hover: $gray400;
+$color_btn_overlay_focus: $gray400;
+
+
+/* Dropdown Colors */
+$color_drop_item_text: $black;
+$color_drop_active_item_text: $lilac;
+$color_drop_item_bg_hover: $gray100;
+$color_drop_item_bg_focus: $gray200;
+
+$color_drop_divider: $gray100;
+
+
+/* Icon color */
+$color_icon: $black;
+$color_icon_position: #444444;
+$color_icon_gray_600: $gray600;
+$color_icon_gray_700: $gray700;
+
+
+/* Switcher color */
+$color_switcher_bg: $gray100;
+$color_switcher_item_bg: $white;
+$color_switcher_item_text: $black;
+
+
+
+/*
+ * Shape of Ui elements */
+
+
+// Border radius
+$shape_border_radius: 4px;
+
+// right-left margin page
+$margin_page_high_resolution: 40px;
+$margin_page_desktop: 20px;
+$margin_page_tablet: 20px;
+$margin_page_mobile: 15px;
+
+// Shadows
+$shadow_small: 0 3px 6px rgba(0, 0, 0, 0.2);
+$shadow_popup: 0 10px 20px rgba(9, 9, 9, 0.15);
+$shadow_popup_small: 0 4px 4px rgba(0, 0, 0, 0.25);
+$shadow_button: 0 2px 4px rgba(130, 130, 130, 0.2);
+
+//gutters
+
+$margin_xl: 20px;
+$margin_l: 16px;
+$margin_m: 12px;
+$margin_s: 8px;
+$margin_xs: 2px;
+
+$padding_xl: 20px;
+$padding_l: 16px;
+$padding_m: 12px;
+$padding_s: 8px;
+$padding_xs: 2px;

@@ -1,0 +1,56 @@
+<svg width="234" height="230" viewBox="0 0 234 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="floating_bar">
+<g id="shadow" opacity="0.1" filter="url(#filter0_f)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M226.459 169.764L137.15 221.619C135.266 222.713 132.941 222.712 131.058 221.617L7.33653 149.658L99.6742 96.0718L226.459 169.764Z" fill="#3D61FE"/>
+</g>
+<g id="grid">
+<path id="Line 2 Copy 2" fill-rule="evenodd" clip-rule="evenodd" d="M220.162 122.864C221.314 123.531 221.313 125.194 220.162 125.861L133.364 176.139C131.483 177.228 129.162 177.228 127.282 176.137L6.04442 105.789C4.89331 105.121 4.89413 103.459 6.04588 102.792L93.4785 52.1724C94.9558 51.3171 96.7779 51.3177 98.2547 52.1741L220.162 122.864Z" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 7" fill-rule="evenodd" clip-rule="evenodd" d="M141.597 171.401L14.7274 97.8037L141.597 171.401Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 13" fill-rule="evenodd" clip-rule="evenodd" d="M17.2942 112.338L109.552 58.3965L17.2942 112.338Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 15" fill-rule="evenodd" clip-rule="evenodd" d="M30.7187 120.133L122.976 66.1914L30.7187 120.133Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 16" fill-rule="evenodd" clip-rule="evenodd" d="M44.1432 127.928L136.401 73.9863L44.1432 127.928Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 17" fill-rule="evenodd" clip-rule="evenodd" d="M58.8668 136.155L151.125 82.2139L58.8668 136.155Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 21" fill-rule="evenodd" clip-rule="evenodd" d="M72.7243 144.383L164.982 90.4419L72.7243 144.383Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 20" fill-rule="evenodd" clip-rule="evenodd" d="M86.5819 151.745L178.84 97.8037L86.5819 151.745Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 19" fill-rule="evenodd" clip-rule="evenodd" d="M99.5733 159.973L191.831 106.032L99.5733 159.973Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 18" fill-rule="evenodd" clip-rule="evenodd" d="M113.864 168.634L206.122 114.693L113.864 168.634Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 8" fill-rule="evenodd" clip-rule="evenodd" d="M152.856 164.906L25.9866 91.3081L152.856 164.906Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 10" fill-rule="evenodd" clip-rule="evenodd" d="M164.549 157.977L37.679 84.3794L164.549 157.977Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 9" fill-rule="evenodd" clip-rule="evenodd" d="M175.808 151.481L48.9382 77.8838L175.808 151.481Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 12" fill-rule="evenodd" clip-rule="evenodd" d="M188.366 144.119L61.4966 70.522L188.366 144.119Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 11" fill-rule="evenodd" clip-rule="evenodd" d="M199.626 137.623L72.7559 64.0259L199.626 137.623Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+<path id="Line 2 Copy 14" fill-rule="evenodd" clip-rule="evenodd" d="M211.751 131.128L84.8812 57.5303L211.751 131.128Z" fill="#D8D8D8" stroke="#5495FF" stroke-width="0.433048" stroke-linecap="square"/>
+</g>
+<g id="bar">
+<g id="Group 4">
+<path id="Line 2 Copy 5" fill-rule="evenodd" clip-rule="evenodd" d="M217.142 83.8507C221.172 86.1874 221.171 92.0068 217.14 94.3416L136.808 140.874C134.927 141.964 132.606 141.963 130.726 140.872L6.9035 69.0246L99.3111 15.5249L217.142 83.8507Z" fill="#0D238D"/>
+<g id="Group 3">
+<path id="Line 2" fill-rule="evenodd" clip-rule="evenodd" d="M6.92871 67.7267C6.92871 68.6529 7.42175 69.5091 8.22283 69.974L130.547 140.963C131.99 141.8 133.799 140.759 133.799 139.09V125.523L9.5301 53.4345C8.3753 52.7646 6.92871 53.5978 6.92871 54.9328L6.92871 67.7267Z" fill="url(#paint0_linear)"/>
+<path id="Line 2 Copy" fill-rule="evenodd" clip-rule="evenodd" d="M226.476 86.2553C226.476 87.9534 225.572 89.5231 224.104 90.3754L137.039 140.9C135.595 141.737 133.787 140.696 133.787 139.027V125.498L223.219 73.2908C224.663 72.4481 226.476 73.4893 226.476 75.1607V86.2553Z" fill="url(#paint1_linear)"/>
+<path id="Line 2 Copy 2_2" fill-rule="evenodd" clip-rule="evenodd" d="M225.17 72.2678C226.331 72.9415 226.318 74.6228 225.146 75.278L136.766 124.702C134.916 125.736 132.661 125.73 130.817 124.685L8.12497 55.1433C6.96077 54.4834 6.95264 52.8088 8.11038 52.1377L96.9415 0.642392C98.4195 -0.214445 100.243 -0.214109 101.721 0.643276L225.17 72.2678Z" fill="#F1F3F9"/>
+<path id="Line 2 Copy 3" fill-rule="evenodd" clip-rule="evenodd" d="M101.169 72.2829C102.33 72.9562 102.317 74.637 101.146 75.2928L96.8424 77.7031C95.7743 78.3013 94.4698 78.2913 93.4109 77.6769L66.6956 62.1756C65.5346 61.5019 65.5479 59.8207 66.7195 59.1655L71.0184 56.7614C72.0859 56.1644 73.3891 56.1745 74.4472 56.788L101.169 72.2829Z" fill="white" stroke="#CFCFCF" stroke-width="2" stroke-linecap="square"/>
+<path id="Line 2 Copy 4" fill-rule="evenodd" clip-rule="evenodd" d="M117.252 81.9379C118.091 82.4524 118.075 83.6766 117.224 84.1697L112.588 86.853C111.509 87.478 110.176 87.4742 109.1 86.843L101.751 82.5326C100.596 81.8553 100.614 80.18 101.782 79.5266L106.046 77.1422C107.14 76.5303 108.479 76.5573 109.548 77.2127L117.252 81.9379Z" fill="#4D69FE"/>
+</g>
+</g>
+<g id="Group 2">
+<ellipse id="Oval Copy 3" cx="115.815" cy="49.0859" rx="21.0028" ry="13.208" fill="#173BEF"/>
+<path id="Triangle" fill-rule="evenodd" clip-rule="evenodd" d="M155.872 43.2397V69.6557L117.331 50.0138L155.872 43.2397Z" fill="#ADBBFF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" x="0.134903" y="88.8701" width="233.526" height="140.77" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3.60082" result="effect1_foregroundBlur"/>
+</filter>
+<linearGradient id="paint0_linear" x1="-44.4865" y1="106.251" x2="44.4467" y2="210.107" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0F238F"/>
+<stop offset="1" stop-color="#183AEC"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="98.2114" y1="98.3946" x2="168.744" y2="24.8074" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0D238C"/>
+<stop offset="1" stop-color="#1638E1"/>
+</linearGradient>
+</defs>
+</svg>
